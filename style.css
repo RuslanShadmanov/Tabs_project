@@ -1,0 +1,56 @@
+body {
+    background-color: lightsteelblue;
+  }
+  header {
+    text-align: center;
+    margin: 100px 0;
+  }
+  main {
+    display: flex;
+    justify-content: space-around;
+  }
+  figure {
+    margin: 0;
+    width: 40%;
+  }
+  img {
+    width: 100%;
+  }
+  section {
+    width: 57%;
+    background-color: whitesmoke;
+  }
+  article {
+    padding: 15px;
+  }
+  img,
+  section {
+    border-radius: 10px;
+  }
+  .tabs {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .tabs div {
+    flex-grow: 1;
+    text-align: center;
+    padding: 15px 0;
+    background-color: lightslategray;
+  }
+  .tabs div:hover {
+    background-color: rgb(132, 153, 174);
+  }
+  div.tabs .active {
+    background-color: whitesmoke;
+  }
+  .tabs div.history {
+    border-top-left-radius: 10px;
+  }
+  .tabs div.goals {
+    border-top-right-radius: 10px;
+  }
+
+  #vision,
+  #goals {
+    display: none;
+  }
